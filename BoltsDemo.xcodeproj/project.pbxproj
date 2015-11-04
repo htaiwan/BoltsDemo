@@ -16,6 +16,8 @@
 		434B55641BE8520200B3D144 /* BoltsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B55631BE8520200B3D144 /* BoltsDemoUITests.swift */; };
 		434B55751BE8AD1200B3D144 /* GoogleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B55741BE8AD1200B3D144 /* GoogleManager.swift */; };
 		4390C4431BE99DB000E35912 /* GoogleManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4390C4421BE99DB000E35912 /* GoogleManagerTests.swift */; };
+		4390C4451BE9D02700E35912 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4390C4441BE9D02700E35912 /* ApiManager.swift */; };
+		4390C4471BE9D63400E35912 /* ApiManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4390C4461BE9D63400E35912 /* ApiManagerTests.swift */; };
 		4D992F62C79C1A63C4E19F01 /* Pods_BoltsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A318B93F08A99722604070 /* Pods_BoltsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		434B55651BE8520200B3D144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		434B55741BE8AD1200B3D144 /* GoogleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleManager.swift; sourceTree = "<group>"; };
 		4390C4421BE99DB000E35912 /* GoogleManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleManagerTests.swift; sourceTree = "<group>"; };
+		4390C4441BE9D02700E35912 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		4390C4461BE9D63400E35912 /* ApiManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManagerTests.swift; sourceTree = "<group>"; };
 		85A318B93F08A99722604070 /* Pods_BoltsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoltsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAB163D3005BD801247DBE8 /* Pods-BoltsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoltsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoltsDemo/Pods-BoltsDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +98,7 @@
 		434B55371BE8520200B3D144 = {
 			isa = PBXGroup;
 			children = (
+				4390C4441BE9D02700E35912 /* ApiManager.swift */,
 				434B55741BE8AD1200B3D144 /* GoogleManager.swift */,
 				434B55421BE8520200B3D144 /* BoltsDemo */,
 				434B55571BE8520200B3D144 /* BoltsDemoTests */,
@@ -130,6 +135,7 @@
 		434B55571BE8520200B3D144 /* BoltsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				4390C4461BE9D63400E35912 /* ApiManagerTests.swift */,
 				4390C4421BE99DB000E35912 /* GoogleManagerTests.swift */,
 				434B55581BE8520200B3D144 /* BoltsDemoTests.swift */,
 				434B555A1BE8520200B3D144 /* Info.plist */,
@@ -337,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4390C4451BE9D02700E35912 /* ApiManager.swift in Sources */,
 				434B55461BE8520200B3D144 /* ViewController.swift in Sources */,
 				434B55751BE8AD1200B3D144 /* GoogleManager.swift in Sources */,
 				434B55441BE8520200B3D144 /* AppDelegate.swift in Sources */,
@@ -348,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4390C4431BE99DB000E35912 /* GoogleManagerTests.swift in Sources */,
+				4390C4471BE9D63400E35912 /* ApiManagerTests.swift in Sources */,
 				434B55591BE8520200B3D144 /* BoltsDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
